@@ -1,0 +1,149 @@
+.container {
+    height: 100%;
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    width: 40%;
+    margin-left: 30%;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .btn {
+    display: block;
+    width: 40%;
+    margin-left: 30%;
+    padding: 10px;
+    background-color: #0070ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+  
+  .error {
+    color: #ff0000;
+    text-align: center;
+  }
+  
+  .success {
+    color: #00cc00;
+    text-align: center;
+  }
+  
+  .workflow-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: azure;
+  }
+  
+  .workflow-table th,
+  .workflow-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .workflow-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .workflow-table th:nth-child(1),
+  .workflow-table td:nth-child(1) {
+    width: 10%;
+  }
+  
+  .workflow-table th:nth-child(2),
+  .workflow-table td:nth-child(2) {
+    width: 40%;
+  }
+  
+  .workflow-table th:nth-child(3),
+  .workflow-table td:nth-child(3) {
+    width: 40%;
+  }
+  
+  .workflow-table th:nth-child(4),
+  .workflow-table td:nth-child(4) {
+    width: 10%;
+  }
+  
+  .accordion-button {
+    padding: 5px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 16px; /* Adjust the size as needed */
+  }
+  
+  .accordion-button:focus {
+    outline: none;
+  }
+  
+  .workflow-instance-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+  }
+  
+  .workflow-instance-table th:nth-child(1),
+  .workflow-table td:nth-child(1) {
+    width: 10%;
+  }
+  
+  .workflow-instance-table th:nth-child(2),
+  .workflow-table td:nth-child(2) {
+    width: 30%;
+  }
+  
+  .workflow-instance-table th:nth-child(3),
+  .workflow-table td:nth-child(3) {
+    width: 30%;
+  }
+  
+  .workflow-instance-table th:nth-child(4),
+  .workflow-table td:nth-child(4) {
+    width: 15%;
+  }
+  
+  .workflow-instance-table th:nth-child(5),
+  .workflow-table td:nth-child(5) {
+    width: 15%;
+  }
+  
+  .workflow-instance-table th:nth-child(6),
+  .workflow-table td:nth-child(6) {
+    width: 10%;
+  }
+  
